@@ -1,0 +1,13 @@
+@startuml
+class Banco.Agencia
+class Banco.Caixa
+class Banco.Cliente
+class Banco.Conta
+class Banco.Endereco
+class Banco.TelaPrincipal
+class java.util.Random
+class java.util.Scanner
+Banco.Caixa ..> java.util.Random
+Banco.Caixa ..> java.util.Scanner
+Banco.Conta ..> java.util.Scanner
+@enduml
